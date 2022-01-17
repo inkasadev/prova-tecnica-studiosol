@@ -57,7 +57,8 @@ esse teste. Vocês podem obter mais informações sobre ela nos links abaixo:
 ## Instalação
 
 ```sh
-$ npm run setup
+$ npm install
 ```
 
-Você pode conferir o projeto finalizado [clicando aqui]().
+Você pode conferir o projeto finalizado
+[clicando aqui](https://prova-tecnica-studiosol.surge.sh/).

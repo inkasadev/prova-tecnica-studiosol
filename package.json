@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm run test:coverage",
+		"test": "npm run test:watch:client",
 		"test:coverage": "npm run test:coverage:client",
 		"test:coverage:client": "jest --config test/jest.client.js --coverage",
 		"test:watch:client": "jest --watch",

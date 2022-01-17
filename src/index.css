@@ -26,6 +26,10 @@
 	--clr-black: #000000;
 	--clr-white: #ffffff;
 	--clr-emphasis: #ff6600;
+	--clr-disabled: #dddddd;
+	--clr-placeholder: #9e9e9e;
+	--clr-success: #32bf00;
+	--clr-error: #cc3300;
 	--clr-background: linear-gradient(to bottom, #eeeeee, #ffffff);
 	--clr-send-button: linear-gradient(to bottom, #ef6c00, #c0661c);
 	--clr-restart-button: linear-gradient(to bottom, #434854, #9e9e9e);
@@ -140,11 +144,11 @@ hr {
 }
 
 .game-screen__status--error {
-	color: #cc3300;
+	color: var(--clr-error);
 }
 
 .game-screen__status--success {
-	color: #32bf00;
+	color: var(--clr-success);
 }
 
 .game-screen__led {
@@ -194,7 +198,7 @@ hr {
 }
 
 .game-input__textfield:disabled::placeholder {
-	color: #9e9e9e;
+	color: var(--clr-placeholder);
 }
 
 .game-input__button {
@@ -211,5 +215,5 @@ hr {
 }
 
 .game-input__button:disabled {
-	background: #ddd;
+	background: var(--clr-disabled);
 }
