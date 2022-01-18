@@ -56,8 +56,9 @@ Você pode conferir o projeto finalizado
 ### Pontos extras:
 
 - 🔳 Testes automatizados​
-  - Esse projetos não possui testes ponta a ponta, mas o projeto da lib
-    [Studo Led](https://github.com/inkasadev/studioled) possui testes unitários.
+  - Esse projeto não possui testes ponta a ponta, mas o projeto da lib
+    [Studio Led](https://github.com/inkasadev/studioled) possui testes
+    unitários.
 - ✅ Configuração de bundler​
 
 ## Biblioteca Studio Led:
