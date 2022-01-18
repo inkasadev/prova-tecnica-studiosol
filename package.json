@@ -1,6 +1,6 @@
 {
 	"name": "prova-tecnica-studiosol",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -17,7 +17,7 @@
 		"format": "npm run prettier -- --write",
 		"check-format": "npm run prettier -- --list-different",
 		"validate": "npm run test:coverage && npm run build",
-		"setup": "npm install && npm run validate && npm run dev"
+		"setup": "npm install && npm run build && npm run dev"
 	},
 	"jest-runner-eslint": {
 		"cliOptions": {

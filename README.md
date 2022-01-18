@@ -15,7 +15,7 @@ utilizando, HTML, CSS e Javascript.
 ## Instalação
 
 ```sh
-$ npm install
+$ npm run setup
 ```
 
 Você pode conferir o projeto finalizado
