@@ -16,8 +16,8 @@
 		"prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
 		"format": "npm run prettier -- --write",
 		"check-format": "npm run prettier -- --list-different",
-		"validate": "npm run check-format && npm run test && npm run build",
-		"setup": "npm install && npm run validate"
+		"validate": "npm run test:coverage && npm run build",
+		"setup": "npm install && npm run validate && npm run dev"
 	},
 	"jest-runner-eslint": {
 		"cliOptions": {
